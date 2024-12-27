@@ -772,7 +772,7 @@ void MainWindow::checkFingerprint(const QString &line)
     QMessageBox::StandardButton fingerprintReply = QMessageBox::information(
         this, tr("Security question"),
         tr("<p>You are connecting to a server.</p>"
-           "<p>Here is it's TLS fingerprint:</p>"
+           "<p>Here is its TLS fingerprint:</p>"
            "<p>%1</p>"
            "<p>Compare this fingerprint to the one on your server's screen. "
            "If the two don't match exactly, then it's probably not the server "
